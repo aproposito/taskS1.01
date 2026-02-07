@@ -36,7 +36,9 @@
     padding: 20px;
     margin: 20px;
 }
-
+.body{
+    max-width: 1200px;
+}
 .base_main{
     background: black;
     padding: 20px;

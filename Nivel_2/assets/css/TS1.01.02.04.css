@@ -1,0 +1,297 @@
+ * {
+    box-sizing: border-box;
+}
+ .upheader{
+    background: rgb(39, 56, 78);
+    padding: 10px;
+      display: flex;
+   } 
+.logo{
+    background:  rgb(230, 76, 78);
+    width: 15% ;
+    padding: 10px;
+    margin: 10px;
+   }
+.nav-nav{
+    background:  rgb(230, 76, 78);
+    width: 75%;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    }
+.nav-enlace{
+    color: rgb(117 117 117);
+    text-decoration: none;
+    padding: 10px 35px;
+    display: inline-block;
+    
+    }
+.nav-enlace:hover{
+    color: rgb(237 118 118);
+}    
+.social{
+    background:  rgb(230, 76, 78);
+    width: 15%;
+    padding: 10px;
+    margin: 10px;
+}
+.banner{
+    background: rgb(254, 209, 50);
+    color: rgb(243, 146, 115)
+    padding-left: 5px;
+}
+.banner2{
+    background: rgb(253, 130, 36);
+    padding: 10px ;
+    margin-top: 20px;
+}
+
+.base{
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    padding: 20px;
+    margin: 20px;
+}
+body{
+    max-width: 1200px;
+}
+.base_main{
+    background: black;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+
+}
+.main_not_ad{
+    background: rgb(39, 56, 78);
+    padding: 10px;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.article{
+    background:rgb(30 97 163);
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    width: 45%;
+}
+.navegation{
+    background:rgb(102 153 186);
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+}
+.aside{
+    background:rgb(243 58 74);
+    padding: 5px;
+    margin: 5px;
+    width: 25%;
+    align-items: end;
+     
+    }
+.adver{
+    background: rgb(254, 209, 50);
+    padding: 5px;
+    margin: 5px;
+
+}
+.footer{
+    background: rgb(238, 227, 136);
+    padding-top: 25px;
+    padding-bottom: 25px ;
+    padding-left: 5px;
+    
+}
+.base_footer{
+    background: black;
+    padding: 20px;
+    margin: 20px;  
+}
+
+
+
+@media (max-width: 768px){
+  .upheader{
+    background: rgb(39, 56, 78);
+    padding: 10px;
+      display: flex;
+      flex-direction: column;
+  }
+  .logo{
+    background:  rgb(230, 76, 78);
+    width: auto ;
+    padding: 10px;
+    
+}
+.nav-nav{
+    background:  rgb(230, 76, 78);
+    width: auto;
+    padding: 10px;
+    
+}
+.social{
+    background:  rgb(230, 76, 78);
+    width: auto;
+    padding: 10px;
+   
+}
+.banner{
+    background: rgb(254, 209, 50);
+    padding-left: 10px;
+    margin: 10px;
+}
+.banner2{
+    background: rgb(253, 130, 36);
+    padding: 10px ;
+    margin-top: 20px;
+
+}
+.base_main{
+    background: black;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.main_not_ad{
+    background: rgb(39, 56, 78);
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   flex-wrap: wrap;
+
+}
+.article{
+    background:rgb(30 97 163);
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 46%;
+}
+.navegation{
+    background:rgb(102 153 186);
+    padding: 10px;
+    margin: 10px;
+    width: 95%;
+}
+.aside{
+    background:rgb(243 58 74);
+    padding: 10px;
+    margin: 10px;
+    width: auto;
+     
+    }
+.adver{
+    background: rgb(254, 209, 50);
+    padding: 10px;
+    margin: 10px;
+
+}
+.footer{
+    background: rgb(238, 227, 136);
+    padding-top: 25px;
+    padding-bottom: 25px ;
+    padding-left: 5px;
+    
+}
+}
+
+
+
+@media (max-width: 620px){
+  .upheader{
+    background: rgb(39, 56, 78);
+    padding: 10px;
+      display: flex;
+      flex-direction: column;
+  }
+  .logo{
+    background:  rgb(230, 76, 78);
+    width: auto ;
+    padding: 10px;
+    
+}
+.nav-nav{
+    background:  rgb(230, 76, 78);
+    width: auto;
+    padding: 10px;
+    
+}
+.social{
+    background:  rgb(230, 76, 78);
+    width: auto;
+    padding: 10px;
+   
+}
+.banner{
+    background: rgb(254, 209, 50);
+    padding-left: 10px;
+    margin: 10px;
+}
+.banner2{
+    background: rgb(253, 130, 36);
+    padding: 10px ;
+    margin-top: 20px;
+
+}
+.base_main{
+    background: black;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.main_not_ad{
+    background: rgb(39, 56, 78);
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   flex-wrap: wrap;
+
+}
+.article{
+    background:rgb(30 97 163);
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    width: 100%;
+}
+.navegation{
+    background:rgb(102 153 186);
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+}
+.aside{
+    background:rgb(243 58 74);
+    padding: 10px;
+    margin: 10px;
+    width: auto;
+     
+    }
+.adver{
+    background: rgb(254, 209, 50);
+    padding: 10px;
+    margin: 10px;
+
+}
+.footer{
+    background: rgb(238, 227, 136);
+    padding-top: 25px;
+    padding-bottom: 25px ;
+    padding-left: 5px;
+    
+}
+}
+

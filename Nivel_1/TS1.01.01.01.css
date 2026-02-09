@@ -1,91 +1,112 @@
- .upheader{
-    background: rgb(39, 56, 78);
-    padding: 10px;
-      display: flex;
-   } 
-.logo{
-    background:  rgb(230, 76, 78);
-    width: 25% ;
-    padding: 10px;
-    margin: 10px;
-}
-.nav-nav{
-    background:  rgb(230, 76, 78);
-    width: 50%;
-    padding: 10px;
-    margin: 10px;
-}
-.social{
-    background:  rgb(230, 76, 78);
-    width: 25%;
-    padding: 10px;
-    margin: 10px;
-}
-.banner{
-    background: rgb(254, 209, 50);
-    padding-left: 5px;
-}
-.banner2{
-    background: rgb(253, 130, 36);
-    padding: 10px ;
-    margin-top: 20px;
-}
+ .menu {
+     background: rgb(39, 56, 78);
+     padding: 10px;
+     display: flex;
+ }
 
-.base{
-    background: black;
-    padding: 20px;
-    margin: 20px;
-}
-.body{
-    max-width: 1200px;
-}
-.base_main{
-    background: black;
-    padding: 20px;
-    margin: 20px;
-    display: flex
-}
-.main_not_ad{
-    background: rgb(39, 56, 78);
-    padding: 10px;
-    width: 75%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+ .logo {
+     background: rgb(230, 76, 78);
+     width: 25%;
+     padding: 10px;
+     margin: 10px;
+ }
 
-}
-.article{
-    background:rgb(30 97 163);
-    padding: 5px;
-    margin: 10px;
-    display: flex;
-    width: 45%;
-}
-.navegation{
-    background:rgb(102 153 186);
-    padding: 5px;
-    margin: 5px;
-    width: 100%;
-}
-.aside{
-    background:rgb(243 58 74);
-    padding: 5px;
-    margin: 5px;
-    width: 25%;
-    align-items: end;
-     
-    }
-.adver{
-    background: rgb(254, 209, 50);
-    padding: 5px;
-    margin: 5px;
+ .nav-nav {
+     background: rgb(230, 76, 78);
+     width: 50%;
+     padding: 10px;
+     margin: 10px;
+ }
 
-}
-.footer{
-    background: rgb(238, 227, 136);
-    padding-top: 25px;
-    padding-bottom: 25px ;
-    padding-left: 5px;
+ .social {
+     background: rgb(230, 76, 78);
+     width: 25%;
+     padding: 10px;
+     margin: 10px;
+ }
+
+ .banner {
+     background: rgb(254, 209, 50);
+     padding-left: 5px;
+ }
+
+ .texto-titulo {
+     background: rgb(253, 130, 36);
+     padding: 10px;
+     margin-top: 20px;
+ }
+
+ .header {
+     background: black;
+     padding: 20px;
+     margin: 20px;
+ }
+
+ .parent {
+     max-width: 1200px;
+     background: white;
+ }
+
+ .main {
+     background: black;
+     padding: 20px;
+     margin: 20px;
+     display: flex
     
-}
-  
+ }
+
+ .main_articles {
+     background: rgb(39, 56, 78);
+     padding: 10px;
+     width: 75%;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+
+ }
+
+ .article {
+     background: rgb(30 97 163);
+     padding: 5px;
+     margin: 10px;
+     display: flex;
+     width: 45%;
+ }
+
+ .navegation {
+     background: rgb(102 153 186);
+     padding: 5px;
+     margin: 5px;
+     width: 100%;
+ }
+
+ .aside {
+     background: rgb(243 58 74);
+     padding: 5px;
+     margin: 5px;
+     width: 25%;
+     align-items: end;
+
+ }
+
+ .adver {
+     background: rgb(254, 209, 50);
+     padding: 5px;
+     margin: 5px;
+
+ }
+
+ .footer {
+     background: black;
+     padding: 20px;
+     margin: 20px;
+
+ }
+
+ .footer-nav {
+     background: rgb(238, 227, 136);
+     padding-top: 25px;
+     padding-bottom: 25px;
+     padding-left: 5px;
+
+ }

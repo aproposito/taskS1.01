@@ -31,12 +31,13 @@
 
  .banner {
      background: rgb(254, 209, 50);
-     padding-left: 5px;
+     padding: 10px;
+     margin: 0px;
  }
 
  .texto-titulo {
      background: rgb(253, 130, 36);
-     padding: 10px;
+     padding: 20px 21px 20px 20px;
      margin-top: 20px;
  }
 
@@ -200,15 +201,16 @@
          background: rgb(102 153 186);
          padding: 10px;
          margin: 10px;
-         flex: 1 1 100%
+         flex: 1 1 100%;
+    
              /* width: 95%; */
      }
 
      .aside {
          background: rgb(243 58 74);
          padding: 10px;
-         margin: 10px;
-         width: auto;
+         margin: 10px 0px;
+         width: 100%;
 
      }
 
@@ -243,16 +245,17 @@
      .article {
          background: rgb(30 97 163);
          padding: 10px;
-         margin: 10px;
+         margin: 10px 0px;
+         width: 100%;
          display: flex;
-         flex: 1 1 100%
+         flex: 1 1 auto
              /* width: 100%; */
      }
 
      .navegation {
          background: rgb(102 153 186);
          padding: 10px;
-         margin: 10px;
+         margin: 10px 0px;
          width: 100%;
      }
  }

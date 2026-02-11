@@ -1,0 +1,289 @@
+ * {
+     box-sizing: border-box;
+ }
+
+ .menu {
+     padding: 10px;
+     display: flex;
+     align-items: center;
+ }
+
+ .logo {
+     width: 15%;
+     padding: 10px;
+     margin: 10px;
+ }
+ .logo img{
+    width: 60px;
+    height: auto;
+ }
+.nav-enlace{
+    color: rgb(117 117 117);
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-flex;
+    align-items: center;
+
+    }
+.nav-enlace img{
+    width: 30px;
+    height: auto;
+}
+.nav-enlace img:hover{
+    color: rgb(237 118 118);
+}
+.nav-enlace:hover{
+    color: rgb(237 118 118);
+}
+ .nav-nav {
+     width: 70%;
+     padding: 10px ;
+     margin: 10px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .social {
+     width: 15%;
+     padding: 10px;
+     margin: 10px ;
+     display:flex;
+     justify-content: flex-end;
+     gap: 15px
+   
+  }
+.social img{
+    width: 30px
+}
+ .banner {
+    color: rgb(243, 146, 115);
+     padding-left: 5px;
+ }
+
+ .texto-titulo {
+    background: rgba(0, 0, 0, .1);
+    padding: 10px;
+     margin-top: 20px;
+     display: flex ;
+     justify-content: center;
+ }
+
+ .header {
+     background:url(../img/header.jpg);
+     background-position: center;
+     background-attachment: contain;
+     background-size: cover;
+     padding: 20px;
+     margin: 20px;
+ }
+
+ .parent {
+     max-width: 1200px;
+     background-color: white;
+     display: flex;
+     flex-flow: column nowrap;
+
+ }
+
+ .main {
+     background: black;
+     padding: 20px;
+     margin: 20px;
+     display: flex;
+
+ }
+
+ .main_articles {
+     background: rgb(39, 56, 78);
+     padding: 10px;
+     display: flex;
+     flex: 2 1 auto;
+     flex-direction: row;
+     flex-wrap: wrap;
+
+ }
+
+ .article {
+     background: rgb(30 97 163);
+     padding: 5px;
+     margin: 10px;
+     display: flex;
+     flex: 1 1 40%;
+     /* width: 46%; */
+ }
+
+ .navegation {
+     background: rgb(102 153 186);
+     padding: 5px;
+     margin: 5px;
+     flex: 1 1 100%;
+     /* width: 96%; */
+ }
+
+ .aside {
+     background: rgb(243 58 74);
+     padding: 5px;
+     margin: 5px;
+     flex: 1 1 auto;
+     align-items: end;
+
+ }
+
+ .adver {
+     background: rgb(254, 209, 50);
+     padding: 5px;
+     margin: 5px;
+
+ }
+
+ .footer {
+     background: black;
+     /* padding: 20px; */
+     margin: 20px;
+     display: flex;
+     justify-content: center;
+ }
+
+ .footer-nav {
+     background: rgb(238, 227, 136);
+     /* padding-top: 25px;
+    padding-bottom: 25px ;
+    padding-left: 5px; */
+     width: 90%;
+
+ }
+
+
+
+ @media (max-width: 768px) {
+     .menu {
+         display: flex;
+         flex-direction: column;
+         align-items:  flex-start;
+     }
+
+     .logo {
+
+         width: auto;
+         padding: 10px;
+
+     }
+
+     .nav-nav {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* align-items: center; */
+
+     }
+
+     .social {
+          width: auto;
+          display:flex;
+          justify-content: flex-start;
+         padding: 10px;
+
+     }
+
+     .banner {
+         padding-left: 10px;
+         margin: 10px;
+     }
+
+     .header {
+         padding: 20px;
+         margin: 20px;
+         display: flex;
+         flex-direction: column;
+     }
+
+     .main {
+         background: black;
+         padding: 20px;
+         margin: 20px;
+         display: flex;
+         flex-direction: column;
+
+     }
+
+     .main_articles {
+         background: rgb(39, 56, 78);
+         padding: 10px;
+         width: 100%;
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+
+     }
+
+     .article {
+         background: rgb(30 97 163);
+         padding: 10px;
+         margin: 10px;
+         display: flex;
+         flex-wrap: wrap;
+         flex: 1 1 40%
+             /* width: 46%; */
+     }
+
+     .navegation {
+         background: rgb(102 153 186);
+         padding: 10px;
+         margin: 10px;
+         flex: 1 1 100%
+             /* width: 95%; */
+     }
+
+     .aside {
+         background: rgb(243 58 74);
+         padding: 10px;
+         margin: 10px;
+         width: auto;
+
+     }
+
+     .adver {
+         background: rgb(254, 209, 50);
+         padding: 10px;
+         margin: 10px;
+
+     }
+
+ }
+
+ @media (max-width: 620px) {
+
+     .main {
+         background: black;
+         padding: 20px;
+         margin: 20px;
+         display: flex;
+     }
+
+     .main_articles {
+         background: rgb(39, 56, 78);
+         padding: 10px;
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+         flex-wrap: wrap;
+
+     }
+
+     .article {
+         background: rgb(30 97 163);
+         padding: 10px;
+         margin: 10px;
+         display: flex;
+         flex: 1 1 100%
+             /* width: 100%; */
+     }
+
+     .navegation {
+         background: rgb(102 153 186);
+         padding: 10px;
+         margin: 10px;
+         width: 100%;
+     }
+ }
